@@ -1,3 +1,5 @@
+"""Example working with XML"""
+
 import xml.etree.ElementTree as xml
 from datetime import datetime
 
