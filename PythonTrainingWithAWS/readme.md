@@ -41,14 +41,12 @@ address have been converted successfully or not.
   <host>
     <ip>192.168.202.130</ip>
     <job>
-      <command>mkdir /tmp/birthday-present-ideas</command>
-      <comment>Remind Kesiya's friends about her upcoming birthday.</comment>
+      <command>mkdir /tmp/markinghere</command>
+      <comment>Leaving a mark</comment>
     </job>
   </host>
 </systems>
 ```
-
-
 
 
 [2] For the systems described in the XML format above will output JSON<br/>
