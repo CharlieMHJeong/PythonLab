@@ -12,41 +12,42 @@ address have been converted successfully or not.
 
 
 [1] Here is an example of an XML file:
-<!-- >> systems -->
-<systems><br/>
-  <host><br/>
-    <ip>192.168.1.1</ip><br/>
-    <job><br/>
-      <command>some_command argument</command><br/>
-      <comment>Do something!</comment><br/>
-    </job><br/>
-  </host><br/>
-  <host><br/>
-    <ip>192.168.1.2</ip><br/>
-    <job><br/>
-      <command>another_command</command><br/>
-      <comment>Do something else</comment><br/>
-    </job><br/>
-    <job><br/>
-      <command>yet_another_command</command><br/>
-    </job><br/>
-  </host><br/>
-  <host><br/>
-    <ip>666.666.666.666</ip><br/>
-    <job><br/>
-      <command>some_command argument</command><br/>
-      <comment>Do something!</comment><br/>
-    </job><br/>
-  </host><br/>
-  <host><br/>
-    <ip>192.168.202.130</ip><br/>
-    <job><br/>
-      <command>mkdir /tmp/birthday-present-ideas</command><br/>
-      <comment>Remind Kesiya's friends about her upcoming birthday.</comment><br/>
-    </job><br/>
-  </host><br/>
-</systems><br/>
-<!-- << systems -->
+```xml
+<systems>
+  <host>
+    <ip>192.168.1.1</ip>
+    <job>
+      <command>some_command argument</command>
+      <comment>Do something!</comment>
+    </job>
+  </host>
+  <host>
+    <ip>192.168.1.2</ip>
+    <job>
+      <command>another_command</command>
+      <comment>Do something else</comment>
+    </job>
+    <job>
+      <command>yet_another_command</command>
+    </job>
+  </host>
+  <host>
+    <ip>666.666.666.666</ip>
+    <job>
+      <command>some_command argument</command>
+      <comment>Do something!</comment>
+    </job>
+  </host>
+  <host>
+    <ip>192.168.202.130</ip>
+    <job>
+      <command>mkdir /tmp/birthday-present-ideas</command>
+      <comment>Remind Kesiya's friends about her upcoming birthday.</comment>
+    </job>
+  </host>
+</systems>
+```
+
 
 
 
