@@ -3,13 +3,9 @@
 ### Requirement:
 
 1. Write a converter to read the XML[1] and generate an Ansible-compatible YAML file.
-
 2. it outputs a JSON-formatted string [2] indicating that instructions for each IP
 address have been converted successfully or not.
-
-
 3. It is expected that you will test this by deploying via Ansible <br/>
-
 
 [1] Here is an example of an XML file:
 ```xml
@@ -50,8 +46,7 @@ address have been converted successfully or not.
 
 
 [2] For the systems described in the XML format above will output JSON<br/>
-like:<br/><br/>
-
+like:<br/>
 [{"ip":"192.168.1.1", "success":true},{"ip":"192.168.1.2", "success":true},{"ip":"666.666.666.666","success":false}]<br/><br/>
 
 
