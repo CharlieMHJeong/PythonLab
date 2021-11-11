@@ -12,6 +12,7 @@ address have been converted successfully or not.
 
 
 [1] Here is an example of an XML file:
+<myxml>
 <systems>
   <host>
     <ip>192.168.1.1</ip>
@@ -45,12 +46,12 @@ address have been converted successfully or not.
     </job>
   </host>
 </systems>
+</myxml>
 
+[2] For the systems described in the XML format above will output JSON<br/>
+like:<br/><br/>
 
-[2] For the systems described in the XML format above will output JSON
-like:
-
-[{"ip":"192.168.1.1", "success":true},{"ip":"192.168.1.2", "success":true},{"ip":"666.666.666.666","success":false}]
+[{"ip":"192.168.1.1", "success":true},{"ip":"192.168.1.2", "success":true},{"ip":"666.666.666.666","success":false}]<br/><br/>
 
 
 ### System requirement
