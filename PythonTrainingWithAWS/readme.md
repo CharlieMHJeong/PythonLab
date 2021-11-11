@@ -45,8 +45,7 @@ address have been converted successfully or not.
 ```
 
 
-[2] For the systems described in the XML format above will output JSON<br/>
-like:<br/>
+[2] For the systems described in the XML format above will output JSON like:<br/>
 [{"ip":"192.168.1.1", "success":true},{"ip":"192.168.1.2", "success":true},{"ip":"666.666.666.666","success":false}]<br/><br/>
 
 
