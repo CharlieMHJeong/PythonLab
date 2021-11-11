@@ -48,6 +48,25 @@ address have been converted successfully or not.
 </systems>
 <!-- << listview-first-look -->
 
+
+<!-- >> listview-first-look -->
+<navigation:ExamplePage xmlns:navigation="navigation/example-page" loaded="onPageLoaded" xmlns:lv="nativescript-telerik-ui/listview" xmlns="http://www.nativescript.org/tns.xsd">
+    <lv:RadListView items="{{ dataItems }}" >
+        <lv:RadListView.listViewLayout>
+            <lv:ListViewLinearLayout scrollDirection="Vertical"/>
+        </lv:RadListView.listViewLayout>
+        <lv:RadListView.itemTemplate>
+            <StackLayout orientation="vertical">
+                <Label fontSize="20" text="{{ itemName }}"/>
+                <Label fontSize="14" text="{{ itemDescription }}"/>
+            </StackLayout>
+        </lv:RadListView.itemTemplate>
+    </lv:RadListView>
+</navigation:ExamplePage>
+<!-- << listview-first-look -->
+
+
+
 [2] For the systems described in the XML format above will output JSON<br/>
 like:<br/><br/>
 
