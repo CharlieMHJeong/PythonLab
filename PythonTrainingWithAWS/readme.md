@@ -1,4 +1,4 @@
-# XML to Ansible-Compatible YAML
+# XML to Ansible-Compatible YML/YAML
 
 ### Requirement:
 
