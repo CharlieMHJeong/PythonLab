@@ -54,7 +54,7 @@ Please install python 3.8.10
 
 ### Running the tests
 
-usage: ./xml2yaml.py INFILE.xml OUTFILE.yaml<br/><br/>
+usage: ./xml2yaml.py INFILE.xml OUTFILE.yml<br/><br/>
 
   INFILE is XML file format<br/>
   OUTFILE is an extract in YAML format<br/>
