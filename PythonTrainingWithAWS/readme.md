@@ -13,56 +13,39 @@ address have been converted successfully or not.
 
 [1] Here is an example of an XML file:
 <!-- >> listview-first-look -->
-<systems>
-  <host>
-    <ip>192.168.1.1</ip>
-    <job>
-      <command>some_command argument</command>
-      <comment>Do something!</comment>
-    </job>
-  </host>
-  <host>
-    <ip>192.168.1.2</ip>
-    <job>
-      <command>another_command</command>
-      <comment>Do something else</comment>
-    </job>
-    <job>
-      <command>yet_another_command</command>
-    </job>
-  </host>
-  <host>
-    <ip>666.666.666.666</ip>
-    <job>
-      <command>some_command argument</command>
-      <comment>Do something!</comment>
-    </job>
-  </host>
-  <host>
-    <ip>192.168.202.130</ip>
-    <job>
-      <command>mkdir /tmp/birthday-present-ideas</command>
-      <comment>Remind Kesiya's friends about her upcoming birthday.</comment>
-    </job>
-  </host>
-</systems>
-<!-- << listview-first-look -->
-
-
-<!-- >> listview-first-look -->
-<navigation:ExamplePage xmlns:navigation="navigation/example-page" loaded="onPageLoaded" xmlns:lv="nativescript-telerik-ui/listview" xmlns="http://www.nativescript.org/tns.xsd">
-    <lv:RadListView items="{{ dataItems }}" >
-        <lv:RadListView.listViewLayout>
-            <lv:ListViewLinearLayout scrollDirection="Vertical"/>
-        </lv:RadListView.listViewLayout>
-        <lv:RadListView.itemTemplate>
-            <StackLayout orientation="vertical">
-                <Label fontSize="20" text="{{ itemName }}"/>
-                <Label fontSize="14" text="{{ itemDescription }}"/>
-            </StackLayout>
-        </lv:RadListView.itemTemplate>
-    </lv:RadListView>
-</navigation:ExamplePage>
+<systems><br/>
+  <host><br/>
+    <ip>192.168.1.1</ip><br/>
+    <job><br/>
+      <command>some_command argument</command><br/>
+      <comment>Do something!</comment><br/>
+    </job><br/>
+  </host><br/>
+  <host><br/>
+    <ip>192.168.1.2</ip><br/>
+    <job><br/>
+      <command>another_command</command><br/>
+      <comment>Do something else</comment><br/>
+    </job><br/>
+    <job><br/>
+      <command>yet_another_command</command><br/>
+    </job><br/>
+  </host><br/>
+  <host><br/>
+    <ip>666.666.666.666</ip><br/>
+    <job><br/>
+      <command>some_command argument</command><br/>
+      <comment>Do something!</comment><br/>
+    </job><br/>
+  </host><br/>
+  <host><br/>
+    <ip>192.168.202.130</ip><br/>
+    <job><br/>
+      <command>mkdir /tmp/birthday-present-ideas</command><br/>
+      <comment>Remind Kesiya's friends about her upcoming birthday.</comment><br/>
+    </job><br/>
+  </host><br/>
+</systems><br/>
 <!-- << listview-first-look -->
 
 
