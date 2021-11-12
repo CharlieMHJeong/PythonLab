@@ -27,9 +27,7 @@ def ipvalidator(IPv4_address_as_string):
 def ping_validator(IPv4_address_as_string):
     """ ping ip and returns True if ping successful, False otherwise."""
     if ipvalidator(IPv4_address_as_string):
-        p = subprocess.run(("ping", "-c", "1",
-                           IPv4_address_as_string),
-                           stdout=subprocess.DEVNULL)
+        p = subprocess.run(("ping", "-c", "1", IPv4_address_as_string), stdout=subprocess.DEVNULL)
         return True if p.returncode == 0 else False
     else:
         return False
